@@ -15,3 +15,7 @@ test('it should thrown an exception if some value is not a number', () => {
 test('it should return three when adds one and two', () => {
   expect(BasicMathOperations.sum([1, 2])).toBe(3);
 });
+
+test('it should return minus one when adds one and minus two', () => {
+  expect(BasicMathOperations.sum([1, -2])).toBe(-1);
+});
