@@ -1,10 +1,6 @@
-const IS_NOT_A_VALID_NUMBER = require('../src/constants/ErrorMessages').IS_NOT_A_VALID_NUMBER;
+const IS_NOT_A_VALID_NUMBER = require('../constants/ErrorMessages').IS_NOT_A_VALID_NUMBER;
 
 class BasicMathOperations {
-  static throwEver() {
-    throw new Error('I fail ever!');
-  }
-
   static sum(operands) {
     let total = 0;
 

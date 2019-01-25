@@ -1,4 +1,4 @@
-const BasicMathOperations = require('../src/BasicMathOperations');
+const BasicMathOperations = require('../../src/utils/BasicMathOperations');
 
 test('it should return zero if not operands', () => {
   expect(BasicMathOperations.sum([])).toBe(0);
